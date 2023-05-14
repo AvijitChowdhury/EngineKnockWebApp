@@ -32,7 +32,7 @@ if uploaded_video is not None:
         st.write("Uploaded Video")
     
 if st.button('Predict'):
-    learn = load_learner("Model/model_v2_1.pkl")
+    learn = load_learner("Model/model_v2.pkl")
     mov_filename = 'random.mp4'
     project_path = '.'
 
