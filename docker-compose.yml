@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  engineknocking:
+    image: engineknocking
+    build:
+      context: .
+      dockerfile: ./Dockerfile
