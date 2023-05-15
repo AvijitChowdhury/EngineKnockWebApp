@@ -18,8 +18,8 @@ RUN python -m pip install -r requirements.txt
 
 WORKDIR /app
 COPY . /app
-RUN mkdir -p /Model
-COPY Model/model_v2.pkl /Model
+# RUN mkdir -p /Model
+# COPY Model/model_v2.pkl /Model
 
 # Creates a non-root user with an explicit UID and adds permission to access the /app folder
 # For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers

@@ -9,9 +9,9 @@ from PIL import ImageMath
 from fastai.data.external import *
 from fastai.vision.all import *
 
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# import pathlib
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 st.title('Engine Knocking Predictor')
 uploaded_video = st.file_uploader("Choose a file",type = ['mp4','mpeg','mov'])
 try:
